@@ -1,0 +1,78 @@
+body {
+      font-family: 'Noto Sans JP', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f7fa;
+      color: #333;
+}
+    header, footer {
+      background-color: #2d3748;
+      color: white;
+      padding: 1.5rem;
+      text-align: center;
+    }
+    br{
+        padding-top: 20px;
+    }
+    nav {
+      margin-top: 0.5rem;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 1rem;
+      text-decoration: none;
+    }
+    .hero {
+      text-align: center;
+      padding: 3rem 1rem;
+      background: #edf2f7;
+    }
+    .hero h1 {
+      font-size: 2rem;
+      color: #2b6cb0;
+    }
+    .hero p {
+      margin: 1rem 0;
+    }
+    .cta-buttons-blue a {
+      display: inline-block;
+      background-color: #3182ce;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      margin: 0.5rem;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+    .cta-buttons-white a {
+      display: inline-block;
+      background-color: white;
+      color: #3182ce;
+      border: 2px solid #3182ce;
+      padding: 0.75rem 1.5rem;
+      margin: 0.5rem;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+    .cta-buttons-white a:hover{
+        background-color: #3182ce;
+        color: #ffffff;
+    }
+    .section {
+      padding: 2rem 1rem;
+      max-width: 960px;
+      margin: auto;
+    }
+    .features, .faq {
+      background-color: #fff;
+      margin: 1rem 0;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .features h3, .faq h3 {
+      margin-bottom: 0.5rem;
+    }
+    footer a {
+      color: #63b3ed;
+      text-decoration: none;
+    }
