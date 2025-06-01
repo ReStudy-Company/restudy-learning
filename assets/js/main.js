@@ -30,3 +30,11 @@ const openTerms = document.getElementById('openTerms');
         privacyModal.style.display = 'none';
       }
     });
+
+// スクロール制御
+document.querySelectorAll('a[href="#"]').forEach(link => {
+  link.addEventListener('click', function(e) {
+    e.preventDefault(); // デフォルトの「#」ジャンプをキャンセル
+    openModal();        // モーダルを開く関数
+  });
+});
