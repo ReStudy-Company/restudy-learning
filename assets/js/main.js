@@ -1,3 +1,4 @@
+// 利用規約とプライバシーのモーダルを実装しました
 const openTerms = document.getElementById('openTerms');
     const closeTerms = document.getElementById('closeTerms');
     const termsModal = document.getElementById('termsModal');
