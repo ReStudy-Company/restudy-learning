@@ -1,10 +1,14 @@
+html{
+  scroll-behavior: smooth;
+}
+
 body {
       font-family: 'Noto Sans JP', sans-serif;
       margin: 0;
       padding: 0;
       background-color: #f5f7fa;
       color: #333;
-}
+    }
     header, footer {
       background-color: #2d3748;
       color: white;
@@ -57,6 +61,11 @@ body {
         background-color: #3182ce;
         color: #ffffff;
     }
+    .cta-buttons-blue a:hover{
+      background-color: #ffffff;
+      color: #3182ce;
+      border: 2px solid #3182ce;
+    }
     .section {
       padding: 2rem 1rem;
       max-width: 960px;
@@ -72,6 +81,42 @@ body {
     .features h3, .faq h3 {
       margin-bottom: 0.5rem;
     }
+
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 1000;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      background-color: rgba(0, 0, 0, 0.6);
+    }
+    .modal-content {
+      background-color: #fff;
+      margin: 5% auto;
+      padding: 20px;
+      border-radius: 8px;
+      width: 90%;
+      max-width: 600px;
+      max-height: 80vh;
+      overflow-y: auto;
+    }
+    .close {
+      color: #aaa;
+      float: right;
+      font-size: 24px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .close:hover {
+      color: #000;
+    }
+    .mailButton a{
+      color: #60ACE4 !important;
+    }
+
     footer a {
       color: #63b3ed;
       text-decoration: none;
